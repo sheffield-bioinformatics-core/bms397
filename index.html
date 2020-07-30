@@ -1529,9 +1529,100 @@ email: <a href="bioinformatics-core@sheffield.ac.uk">bioinformatics-core@sheffie
 </div>
 <div id="week-1---introduction-to-data-manipulation-and-visualisation-using-r" class="section level1">
 <h1>Week 1 - Introduction to Data Manipulation and Visualisation using R</h1>
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<p>As the data generated from high-throughput biological experiments increase in volume and become more complex, the ability to manipulate and visualise data is a highly-desirable skill in academia and industry. Whilst familiar tools such as Excel allow basic manipulations, they are often not scalable to larger datasets and are not ameanable to reproducible analysis.</p>
+<p>R is a highly-regarded, free, software environment for statistical analysis, with many useful features that promote and facilitate reproducible research.</p>
+<p>In this course, we give an introduction to the R environment and explain how it can be used to import, manipulate and visualise tabular data.</p>
+<p>After the course you should feel confident to start exploring your own dataset using the materials and references provided.</p>
+</div>
+<div id="setup" class="section level2">
+<h2>Setup</h2>
+<ol style="list-style-type: decimal">
+<li>To follow the course on your own computer, install both R <strong>and</strong> RStudio for your operating system. Instructions are availableon youtube to explain the process</li>
+</ol>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=1PsPfMaLWSk">Installation for Mac</a></li>
+<li><a href="https://www.youtube.com/watch?v=GAGUDL-4aVw">Installation for Windows</a></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Please download and extract (un-zip) <a href="http://sbc.shef.ac.uk/r-online/CourseData.zip">this zip file</a> into the directory on your computer that you wish to work in</p></li>
+<li><p>Create an RStudio project using the menu <strong>File -&gt; New Project -&gt; Existing Directory</strong> and browse to the directory that you extraced the zip file to.</p></li>
+<li><p>Type the following into the R console to install some extra R packages required for the workshop</p></li>
+</ol>
+<pre><code>install.packages(&quot;dplyr&quot;)
+install.packages(&quot;ggplot2&quot;)
+install.packages(&quot;readr&quot;)</code></pre>
+<p>These instructions are also described in a video:- <a href="https://youtu.be/vzLclNVuGoI">https://youtu.be/vzLclNVuGoI</a></p>
+<p><strong>Mac Users may get the following error message when trying to install these packages</strong></p>
+<pre><code>xcrun error: inactive developer path (/Library/Developer/CommandLineTools), missing xcrun at:.....
+</code></pre>
+<p>If this is the case, you will need to follow the instructions from this link to install “Xcode”</p>
+<p><a href="https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a">https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a</a></p>
+<p><strong>Window users might get a message that Rtools is required. This shouldn’t be neccesary, but you might need it for other packages. It can be installed here:-</strong></p>
+<p><a href="https://cran.r-project.org/bin/windows/Rtools/">https://cran.r-project.org/bin/windows/Rtools/</a></p>
+<ol start="5" style="list-style-type: decimal">
+<li>Check your installation. You can check everything is installed by copying and pasting this into the R console</li>
+</ol>
+<pre><code>source(&quot;https://raw.githubusercontent.com/sheffield-bioinformatics-core/r-online/master/check_packages.R&quot;)
+</code></pre>
+</div>
+<div id="course-notes" class="section level2">
+<h2>Course Notes</h2>
+<ul>
+<li><a href="http://sbc.shef.ac.uk/r-online/intro_slides.html">Introduction Slides</a></li>
+<li><a href="http://sbc.shef.ac.uk/r-online/part1.nb.html">Part 1</a></li>
+<li><a href="http://sbc.shef.ac.uk/r-online/part2.nb.html">Part 2</a></li>
+<li><a href="http://sbc.shef.ac.uk/r-online/part3.nb.html">Part 3</a></li>
+</ul>
+</div>
+<div id="video-recordings" class="section level2">
+<h2>Video Recordings</h2>
+<p>Videos of the instructor going through the course materials will be available on youtube</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=bb-qyh3c9vE">Course Introduction</a></li>
+<li><a href="https://youtu.be/nGiMyIRTDj0">Part 1</a></li>
+<li><a href="https://youtu.be/o2lb87tPfjM">Part 2</a></li>
+<li><a href="https://youtu.be/5H84lzgBang">Part 3</a></li>
+</ul>
+</div>
 </div>
 <div id="week-2---introduction-to-rna-seq-analysis" class="section level1">
 <h1>Week 2 - Introduction to RNA-seq analysis</h1>
+<div id="overview-1" class="section level2">
+<h2>Overview</h2>
+<p>High-throughput RNA-sequencing is now the standard technique for quantifying transcript abundance in a biological sample of interest. In this course we will describe the processes that take place once you submit a library for RNA sequencing, and what data you should expect to receive from the Bioinformatics Core.</p>
+<p>We will describe the steps involved to go from sequencing library to a list of genes that show statistically significant differences between your biological conditions of interest. Practical sessions will use the user-friendly Galaxy interface (<a href="https://usegalaxy.org/" class="uri">https://usegalaxy.org/</a>) to demonstrate tasks such as <em>alignment</em>, <em>quality control</em> and <em>assessing differential expression</em>. We will also showcase some web sites you can use for enrichment and pathways analysis.</p>
+<p><em>Please note that the course will not cover the analysis of RNA-seq data using the R programming langugage</em></p>
+</div>
+<div id="setup-1" class="section level2">
+<h2>Setup</h2>
+<ul>
+<li><p>Please register for an account at <a href="https://usegalaxy.eu">usegalaxy.eu</a>.<strong>Make sure to check your email to activate your account</strong></p></li>
+<li><p>Please download the GSEA app from <a href="http://software.broadinstitute.org/gsea/downloads.jsp">http://software.broadinstitute.org/gsea/downloads.jsp</a> for your operating system (GSEA_Win_4.0.3-installer.exe or GSEA_4.0.3.app.zip)</p></li>
+<li><p>Please watch these pre-recorded lectures</p>
+<ul>
+<li><a href="https://youtu.be/YtOG-77FfIg">Introduction and Experimental Design</a></li>
+<li><a href="https://youtu.be/m1x4CaLg90A">RNA-seq workflow overview</a></li>
+<li><a href="https://youtu.be/clb0bh3zFSM">Functional Gene Analysis</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="course-notes-1" class="section level2">
+<h2>Course Notes</h2>
+<ul>
+<li><a href="http://sbc.shef.ac.uk/rnaseq-introduction-online/01-pre-processing.nb.html">RNA-seq Pre-processing</a></li>
+<li><a href="http://sbc.shef.ac.uk/rnaseq-introduction-online/02-differential-expression.nb.html">Differential Expression</a></li>
+<li><a href="http://sbc.shef.ac.uk/rnaseq-introduction-online/03-enrichment.nb.html">Gene Set Enrichment</a></li>
+</ul>
+</div>
+<div id="video-recordings-1" class="section level2">
+<h2>Video Recordings</h2>
+<ul>
+<li><a href="https://youtu.be/WHeLvBWt6bg">RNA-seq Pre-processing</a></li>
+<li><a href="https://youtu.be/l_vw1loyDJ0">Differential Expression and Pathways</a></li>
+</ul>
+</div>
 </div>
 
 
