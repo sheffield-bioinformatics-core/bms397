@@ -1,5 +1,5 @@
 ---
-title: "BMSXXX Bioinformatics and Data Analysis Primer"
+title: "BMS397 Bioinformatics and Data Analysis Primer"
 author: "Mark Dunning - Sheffield Bioinformatics Core"
 output: 
   html_document: 
