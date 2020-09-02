@@ -1538,22 +1538,29 @@ email: <a href="bioinformatics-core@sheffield.ac.uk">bioinformatics-core@sheffie
 </div>
 <div id="setup" class="section level2">
 <h2>Setup</h2>
+<p>These instructions are also described in a video:- <a href="https://youtu.be/QIubJ8W8R4g">https://youtu.be/QIubJ8W8R4g</a></p>
 <ol style="list-style-type: decimal">
-<li>To follow the course on your own computer, install both R <strong>and</strong> RStudio for your operating system. Instructions are availableon youtube to explain the process</li>
+<li>First, install both R <strong>and</strong> RStudio for your operating system.</li>
 </ol>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=1PsPfMaLWSk">Installation for Mac</a></li>
-<li><a href="https://www.youtube.com/watch?v=GAGUDL-4aVw">Installation for Windows</a></li>
-</ul>
+<div id="windows" class="section level3">
+<h3>Windows</h3>
+<p>Install R by downloading and running <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a> from CRAN. Also, please install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>. Note that if you have separate user and admin accounts, you should run the installers as administrator (right-click on .exe file and select “Run as administrator” instead of double-clicking). Otherwise problems may occur later, for example when installing R packages.</p>
+</div>
+<div id="mac" class="section level3">
+<h3>Mac</h3>
+<p>Install R by downloading and running <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a> from CRAN. Also, please install the free <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a></p>
+</div>
+<div id="linux" class="section level3">
+<h3>Linux</h3>
+<p>You can download the binary files for your distribution from CRAN. Or you can use your package manager (e.g. for Debian/Ubuntu run <code>sudo apt-get install r-base</code> and for Fedora run <code>sudo yum install R</code>). Also, please install free <a href="https://www.rstudio.com/products/rstudio/download/#download">the RStudio IDE</a>.</p>
 <ol start="2" style="list-style-type: decimal">
-<li><p>Please download and extract (un-zip) <a href="http://sbc.shef.ac.uk/r-online/CourseData.zip">this zip file</a> into the directory on your computer that you wish to work in</p></li>
-<li><p>Create an RStudio project using the menu <strong>File -&gt; New Project -&gt; Existing Directory</strong> and browse to the directory that you extraced the zip file to.</p></li>
+<li><p>Please download and extract (un-zip) <a href="http://sbc.shef.ac.uk/r-online/CourseData.zip">this zip file</a> into the directory on the computer that you wish to work in</p></li>
+<li><p>Create an RStudio project using the menu <strong>File -&gt; New Project -&gt; Existing Directory</strong> and browse to the directory that you extraced the zip file to. Rstudio will refresh so that the working directory corresponds to the course data folder.</p></li>
 <li><p>Type the following into the R console to install some extra R packages required for the workshop</p></li>
 </ol>
 <pre><code>install.packages(&quot;dplyr&quot;)
 install.packages(&quot;ggplot2&quot;)
 install.packages(&quot;readr&quot;)</code></pre>
-<p>These instructions are also described in a video:- <a href="https://youtu.be/vzLclNVuGoI">https://youtu.be/vzLclNVuGoI</a></p>
 <p><strong>Mac Users may get the following error message when trying to install these packages</strong></p>
 <pre><code>xcrun error: inactive developer path (/Library/Developer/CommandLineTools), missing xcrun at:.....
 </code></pre>
@@ -1566,6 +1573,7 @@ install.packages(&quot;readr&quot;)</code></pre>
 </ol>
 <pre><code>source(&quot;https://raw.githubusercontent.com/sheffield-bioinformatics-core/r-online/master/check_packages.R&quot;)
 </code></pre>
+</div>
 </div>
 <div id="course-notes" class="section level2">
 <h2>Course Notes</h2>
