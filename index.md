@@ -92,21 +92,21 @@ source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/r-online
 ```
 
 
-## Course Notes
+## Course Notes - (to appear on day of workshop)
 
 + [Introduction Slides](http://sbc.shef.ac.uk/r-online/intro_slides.html)
-+ [Part 1](http://sbc.shef.ac.uk/r-online/part1.nb.html)
-+ [Part 2](http://sbc.shef.ac.uk/r-online/part2.nb.html)
-+ [Part 3](http://sbc.shef.ac.uk/r-online/part3.nb.html)
++ [Part 1]()
++ [Part 2]()
++ [Part 3]()
   
-## Video Recordings
+## Video Recordings - (to appear after day of workshop)
 
 Videos of the instructor going through the course materials will be available on youtube
 
 - [Course Introduction](https://www.youtube.com/watch?v=bb-qyh3c9vE)
-- [Part 1](https://youtu.be/nGiMyIRTDj0)
-- [Part 2](https://youtu.be/o2lb87tPfjM)
-- [Part 3](https://youtu.be/5H84lzgBang)
+- [Part 1]()
+- [Part 2]()
+- [Part 3]()
 
 
 # Week 2 - Introduction to RNA-seq analysis
@@ -131,14 +131,14 @@ We will describe the steps involved to go from sequencing library to a list of g
   + [RNA-seq workflow overview](https://youtu.be/m1x4CaLg90A)
   + [Functional Gene Analysis](https://youtu.be/clb0bh3zFSM)
 
-## Course Notes
+## Course Notes - (to appear on day of workshop)
 
-+ [RNA-seq Pre-processing](http://sbc.shef.ac.uk/rnaseq-introduction-online/01-pre-processing.nb.html)
-+ [Differential Expression](http://sbc.shef.ac.uk/rnaseq-introduction-online/02-differential-expression.nb.html)
-+ [Gene Set Enrichment](http://sbc.shef.ac.uk/rnaseq-introduction-online/03-enrichment.nb.html)
++ [RNA-seq Pre-processing]()
++ [Differential Expression]()
++ [Gene Set Enrichment]()
   
-## Video Recordings
+## Video Recordings - (to appear after day of workshop)
 
-- [RNA-seq Pre-processing](https://youtu.be/WHeLvBWt6bg)
-- [Differential Expression and Pathways](https://youtu.be/l_vw1loyDJ0)
+- [RNA-seq Pre-processing]()
+- [Differential Expression and Pathways]()
 
