@@ -95,7 +95,7 @@ source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/r-online
 ## Course Notes - (to appear on day of workshop)
 
 + [Introduction Slides](http://sbc.shef.ac.uk/r-online/intro_slides.html)
-+ [Part 1]()
++ [Part 1](http://sbc.shef.ac.uk/r-online/part1.nb.html)
 + [Part 2]()
 + [Part 3]()
   
