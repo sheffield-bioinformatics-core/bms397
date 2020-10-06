@@ -104,10 +104,10 @@ source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/r-online
   
 ## Video Recordings - (to appear after day of workshop)
 
-Videos of the instructor going through the course materials will be available on youtube
+Videos of the instructor going through the course materials will be available on youtube. See Blackboard page for live recordings.
 
 - [Course Introduction](https://www.youtube.com/watch?v=bb-qyh3c9vE)
-- [Part 1]()
+- [Part 1](https://youtu.be/nGiMyIRTDj0)
 - [Part 2]()
 - [Part 3]()
 
