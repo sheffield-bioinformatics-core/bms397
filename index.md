@@ -96,8 +96,11 @@ source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/r-online
 
 + [Introduction Slides](http://sbc.shef.ac.uk/r-online/intro_slides.html)
 + [Part 1](http://sbc.shef.ac.uk/r-online/part1.nb.html)
-+ [Part 2]()
+  + [Solution to Exercise]()
++ [Part 2](http://sbc.shef.ac.uk/r-online/part2.nb.html)
+  + [Solution to Exercise]()
 + [Part 3]()
+  + [Example Covid analyses]()
   
 ## Video Recordings - (to appear after day of workshop)
 
