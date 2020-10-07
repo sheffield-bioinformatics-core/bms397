@@ -99,10 +99,10 @@ source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/r-online
   + [Solution to Exercise - R notebook](http://sbc.shef.ac.uk/r-online/part1-solution.Rmd)
   + [Solution to Exercise - Compiled HTML](http://sbc.shef.ac.uk/r-online/part1-solution.nb.html)
 + [Part 2](http://sbc.shef.ac.uk/r-online/part2.nb.html)
-  + [Solution to Exercise - R notebook]()
-  + [Solution to Exercise - Compiled HTML]()
+  + [Solution to Exercise - R notebook](http://sbc.shef.ac.uk/r-online/part2-solution.Rmd)
+  + [Solution to Exercise - Compiled HTML](http://sbc.shef.ac.uk/r-online/part2-solution.nb.html)
 + [Part 3](http://sbc.shef.ac.uk/r-online/part3.nb.html)
-  + [Example Covid analyses]()
+  + [Example Covid analyses](http://sbc.shef.ac.uk/r-online/covid-examples.Rmd)
   
 ## Video Recordings - (to appear after day of workshop)
 
