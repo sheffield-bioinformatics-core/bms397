@@ -129,7 +129,7 @@ We will describe the steps involved to go from sequencing library to a list of g
 
 - Please register for an account at [usegalaxy.eu](https://usegalaxy.eu).**Make sure to check your email to activate your account**
 - Please download the GSEA app from 
-[http://software.broadinstitute.org/gsea/downloads.jsp](http://software.broadinstitute.org/gsea/downloads.jsp) for your operating system (GSEA_Win_4.0.3-installer.exe or GSEA_4.0.3.app.zip)
+[http://software.broadinstitute.org/gsea/downloads.jsp](http://software.broadinstitute.org/gsea/downloads.jsp) for your operating system (GSEA_Win_4.1.0-installer.exe or GSEA_4.1.0.app.zip)
 - Please watch these pre-recorded lectures
 
   + [Introduction and Experimental Design](https://youtu.be/YtOG-77FfIg)
