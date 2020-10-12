@@ -111,7 +111,7 @@ Videos of the instructor going through the course materials will be available on
 - [Course Introduction](https://www.youtube.com/watch?v=bb-qyh3c9vE)
 - [Part 1](https://youtu.be/nGiMyIRTDj0)
 - [Part 2](https://youtu.be/o2lb87tPfjM)
-- [Part 3]()
+- [Part 3](https://youtu.be/5H84lzgBang)
 
 
 # Week 2 - Introduction to RNA-seq analysis
@@ -136,9 +136,12 @@ We will describe the steps involved to go from sequencing library to a list of g
   + [RNA-seq workflow overview](https://youtu.be/m1x4CaLg90A)
   + [Functional Gene Analysis](https://youtu.be/clb0bh3zFSM)
 
+**Please use this link to access a reserved Galaxy queue on October 12th
++ [https://usegalaxy.eu/join-training/2020-10-12-sbc](https://usegalaxy.eu/join-training/2020-10-12-sbc)**
+
 ## Course Notes - (to appear on day of workshop)
 
-+ [RNA-seq Pre-processing]()
++ [RNA-seq Pre-processing](https://sbc.shef.ac.uk/rnaseq-introduction-online/01-pre-processing.nb.html)
 + [Differential Expression]()
 + [Gene Set Enrichment]()
   
