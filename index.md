@@ -92,7 +92,7 @@ source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/r-online
 ```
 
 
-## Course Notes - (to appear on day of workshop)
+## Course Notes
 
 + [Introduction Slides](http://sbc.shef.ac.uk/r-online/intro_slides.html)
 + [Part 1](http://sbc.shef.ac.uk/r-online/part1.nb.html)
@@ -104,7 +104,7 @@ source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/r-online
 + [Part 3](http://sbc.shef.ac.uk/r-online/part3.nb.html)
   + [Example Covid analyses](http://sbc.shef.ac.uk/r-online/covid-examples.Rmd)
   
-## Video Recordings - (to appear after day of workshop)
+## Video Recordings
 
 Videos of the instructor going through the course materials will be available on youtube. See Blackboard page for live recordings.
 
@@ -139,14 +139,14 @@ We will describe the steps involved to go from sequencing library to a list of g
 **Please use this link to access a reserved Galaxy queue on October 12th
 + [https://usegalaxy.eu/join-training/2020-10-12-sbc](https://usegalaxy.eu/join-training/2020-10-12-sbc)**
 
-## Course Notes - (to appear on day of workshop)
+## Course Notes
 
 + [RNA-seq Pre-processing](https://sbc.shef.ac.uk/rnaseq-introduction-online/01-pre-processing.nb.html)
-+ [Differential Expression]()
-+ [Gene Set Enrichment]()
++ [Differential Expression](https://sbc.shef.ac.uk/rnaseq-introduction-online/02-differential-expression.nb.html)
++ [Gene Set Enrichment](http://sbc.shef.ac.uk/rnaseq-introduction-online/03-enrichment.nb.html)
   
 ## Video Recordings - (to appear after day of workshop)
 
-- [RNA-seq Pre-processing]()
+- [RNA-seq Pre-processing](https://youtu.be/WHeLvBWt6bg)
 - [Differential Expression and Pathways]()
 
