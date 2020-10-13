@@ -145,8 +145,8 @@ We will describe the steps involved to go from sequencing library to a list of g
 + [Differential Expression](https://sbc.shef.ac.uk/rnaseq-introduction-online/02-differential-expression.nb.html)
 + [Gene Set Enrichment](http://sbc.shef.ac.uk/rnaseq-introduction-online/03-enrichment.nb.html)
   
-## Video Recordings - (to appear after day of workshop)
+## Video Recordings
 
 - [RNA-seq Pre-processing](https://youtu.be/WHeLvBWt6bg)
-- [Differential Expression and Pathways]()
+- [Differential Expression and Pathways](https://youtu.be/l_vw1loyDJ0)
 
